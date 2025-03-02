@@ -1,1 +1,23 @@
 /* write your override styles here */
+/* write your override styles here */
+/* Override graffiti tags and restore clean wall */
+
+/* Hide all graffiti tags */
+#wall .tag-1,
+#wall .tag-2,
+#wall .tag-3,
+#wall .tag-4,
+#wall .tag-5,
+#wall .tag-6,
+#wall .tag-7 {
+    display: none; /* Hides the graffiti elements */
+}
+
+/* Restore original wall background */
+#wall {
+    background: url("../images/wall.jpg") no-repeat center center;
+    background-size: cover; /* Makes sure the image covers the entire wall */
+}
+
+/* This CSS ensures that the graffiti tags do not appear,
+   and the original mural remains visible */
